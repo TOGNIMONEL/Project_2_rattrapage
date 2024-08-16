@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import VueCal from 'vue-cal';
-import 'vue-cal/dist/vuecal.css';
-import { useEventStore } from '../stores/eventStore';
+import VueCal from "vue-cal";
+import "vue-cal/dist/vuecal.css";
+import { useEventStore } from "../stores/eventStore";
 
 export default {
   components: { VueCal },

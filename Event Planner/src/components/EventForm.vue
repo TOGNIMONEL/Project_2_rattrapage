@@ -62,6 +62,7 @@ export default {
       } else {
         store.updateEvent(event.value.id, event.value);
       }
+      this.$router.push("/event");
     };
 
     return { event, saveEvent };

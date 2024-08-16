@@ -53,10 +53,6 @@ const router = createRouter({
       component: EventForm,
       meta: { requiresAuth: true }
     },
-    {
-      path: '/:catchAll(.*)',
-      redirect: '/'
-    }
   
   ]
   

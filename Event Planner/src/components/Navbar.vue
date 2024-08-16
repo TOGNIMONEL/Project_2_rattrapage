@@ -1,6 +1,6 @@
 <template>
   <div class="p-4 bg-gray-800 text-white">
-    <button @click="logout" class="bg-red-500 px-4 py-2 rounded">Logout</button>
+    <button @click="logout" class="bg-red-500 px-4 py-2 rounded"> Logout</button>
   </div>
 </template>
 

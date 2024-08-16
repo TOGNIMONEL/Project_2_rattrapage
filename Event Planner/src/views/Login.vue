@@ -14,7 +14,7 @@
         <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Login</button>
         <div v-if="error" class="text-red-500 mt-2">{{ error }}</div>
       </form>
-      <p class="mt-4 text-center">Don't have an account? <router-link to="/register" class="text-blue-500">Register</router-link></p>
+      <p class="mt-4 text-center">Don't have an account? <Routerlink to="/register" class="text-blue-500">Register</Routerlink></p>
     </div>
   </div>
 </template>
